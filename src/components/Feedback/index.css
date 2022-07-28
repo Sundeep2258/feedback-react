@@ -1,0 +1,93 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #ffc0bb, #ffeeee);
+  height: 100%;
+  padding: 10%;
+}
+
+.feedback-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+@media screen and (min-width: 768px) {
+  .feedback-card {
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .feedback-card {
+    padding: 64px;
+  }
+}
+.question-head {
+  text-align: center;
+  color: #0f172a;
+}
+@media screen and (min-width: 992px) {
+  .question-head {
+    font-size: 32px;
+  }
+}
+
+.emojis-list {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+ul {
+  list-style-type: none;
+}
+
+.emoji-btn {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.emoji {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .emoji {
+    width: 150px;
+    height: 150px;
+  }
+}
+.emoji-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .emoji-name {
+    font-size: 12px;
+  }
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100vh;
+  padding: 10%;
+}
+
+.love-emoji {
+  width: 150px;
+}
+.thank-you-text {
+  text-align: center;
+  font-size: 40px;
+}
+.description {
+  text-align: center;
+  font-size: 30px;
+  color: #1e293b;
+}
